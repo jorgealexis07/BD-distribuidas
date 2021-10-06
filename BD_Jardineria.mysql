@@ -109,20 +109,14 @@ FOREIGN KEY (codigo_cliente) REFERENCES cliente (codigo_cliente)
 
 -- Datos
 INSERT INTO oficina VALUES ('BCN-ES', 'Barcelona', 'España', 'Barcelona', '08019', '+34 93 3561182', 'Avenida Diagonal, 38', '3A escalera Derecha');
-INSERT INTO oficcina VALUES ('BOS-USA', 'Boston', 'EEUU', 'MA', '02108', '+1 215 837 0825',
-'1550 Court Place', 'Suite 102');
+INSERT INTO oficcina VALUES ('BOS-USA', 'Boston', 'EEUU', 'MA', '02108', '+1 215 837 0825','1550 Court Place', 'Suite 102');
 INSERT INTO oficina VALUES ('LON-UK', 'Londres', 'Inglaterra', 'EMEA', 'EC2N 1HN', '+44 2078772041', '52 Old Broad Street', 'Ground Floor');
-INSERT INTO oficina VALUES ('MAD-ES', 'Madrid', 'España', 'Madrid', '28032', '+34 91 7514487',
-'Bulevar Indalecio Prieto, 32', '');
-INSERT INTO oficina VALUES ('PAR-FR', 'Paris', 'Francia', 'EMEA', '75017', '+33 14 723 4404',
-'29 Rue Jouffroy d''abbans', '');
-INSERT INTO oficina VALUES ('SFC-USA', 'San Francisco', 'EEUU', 'CA', '94080', '+1 650 219
-4782', '100 Market Street', 'Suite 300');
-INSERT INTO oficina VALUES ('SYD-AU', 'Sydney', 'Australia', 'APAC', 'NSW 2010', '+61 2 9264
-2451', '5-11 Wentworth Avenue', 'Floor #2');
+INSERT INTO oficina VALUES ('MAD-ES', 'Madrid', 'España', 'Madrid', '28032', '+34 91 7514487','Bulevar Indalecio Prieto, 32', '');
+INSERT INTO oficina VALUES ('PAR-FR', 'Paris', 'Francia', 'EMEA', '75017', '+33 14 723 4404','29 Rue Jouffroy d''abbans', '');
+INSERT INTO oficina VALUES ('SFC-USA', 'San Francisco', 'EEUU', 'CA', '94080', '+1 650 2194782', '100 Market Street', 'Suite 300');
+INSERT INTO oficina VALUES ('SYD-AU', 'Sydney', 'Australia', 'APAC', 'NSW 2010', '+61 2 9264 2451', '5-11 Wentworth Avenue', 'Floor #2');
 INSERT INTO oficina VALUES ('TAB-MX', 'Tabacalera', 'México', 'Castilla-LaMancha', '45632', '+34 925 867231', 'Francisco Aguirre, 32', '5º piso (exterior)');
-INSERT INTO oficina VALUES ('TOK-JP', 'Tokyo', 'Japón', 'Chiyoda-Ku', '102-8578', '+81 33 224
-5000', '4-1 Kioicho', '');
+INSERT INTO oficina VALUES ('TOK-JP', 'Tokyo', 'Japón', 'Chiyoda-Ku', '102-8578', '+81 33 2245000', '4-1 Kioicho', '');
 --Las inserciones se cargaron correctamente.
 
 --Hay un error de debido a que en la incercion en el apartado del codigo_jefe faltaba una ','TAB-MX ==> 'TAB-MX' y en la insercion 21 y 22 tambien
